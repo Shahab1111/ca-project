@@ -14,7 +14,7 @@ REPO_NAME = 'ca-project'
 def make_github_issue(title, body=None, labels=None):
     '''Create an issue on github.com using the given parameters.'''
     # Our url to create issues via POST
-    url = 'https://api.github.com/repos/%s/%s/issues' % (REPO_OWNER, REPO_NAME)
+    url = 'https://api.github.com/repos/Shahab1111/ca-project/issues' % (REPO_OWNER, REPO_NAME)
     # Create an authenticated session to create the issue
     session = requests.Session()
     session.auth = (USERNAME, PASSWORD)
